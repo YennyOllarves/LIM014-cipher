@@ -2,13 +2,49 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <meta name="description" content="web para cifrar y decifrar mensajes"/>
+    <title>Caesar Cipher -  Caleta Message</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+    <main>
+      <section name="logoLeft" class="logoLeft"> 
+        <div class="left">
+          <img src="images/logo.png" class="img-logo" alt="Logo de Caleta Message">
+        </div>
+      
+      <section class="main"> 
+        <h1 class="titleText"> Aquí puedes cifrar tus mensajes</h1>
+        <textarea placeholder="Mensaje a cifrar" class= "textArea"  id="messageOne" cols="45" rows="4">
+        </textarea>
+        
+          <section class="sectionMain"> 
+            
+                <input class="box" type="number"  id="offSet" placeholder="N° de Desplazamientos">
+                <button class="btn" name="buttonCipher" id="buttonCipher"> CIFRAR</button>
+              
+              <div class="copyLeft">
+                <p>
+                  <input class="copyC" type="text" id="messageCipher" placeholder="Aquí se verá tu mensaje cifrado">
+                  <button class="btn" name="buttonDecipher" id="buttonDecipher"> DECIFRAR</button>
+                  <input class="copyC"  type=" text" id="messageDecipher" placeholder="Aquí se verá tu mensaje decifrado">
+                
+                </p>
+                  
+              </div>
+             <div>
+              <button class="btn" name="buttonCopy" id="buttonCopy" > COPIAR <span> <i class= "fa fa-copy"> </i> </span> </button>
+              <button class="btn" name="buttonClear" id="buttonClear"> LIMPIAR</button>
+             </div>   
+        </section>
+        </section> 
+      </section>
+    </main>
+    <footer>
+      Caesar Cipher Project  - Laboratoria
+    </footer>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>

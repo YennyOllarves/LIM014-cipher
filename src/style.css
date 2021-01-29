@@ -1,0 +1,140 @@
+/* importing google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/*Reseteo de Estilos*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: rgb(2, 2, 2);
+}
+
+body {
+  
+  background-image: url("images/fondo.png");
+  background-size: auto;
+
+}
+.left {
+  flex-wrap: wrap;
+  margin: 50px 40px 20px 40px;
+}
+.logoLeft {
+  display: flex;
+  flex-direction: row;
+}
+.img-logo {
+  flex: auto;
+  width: 500px;
+  height: 400px;
+  margin: 20px 10px;
+}
+
+.titleText {
+  color:rgb(250, 246, 246);
+  font-weight:normal;
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+.copyC{
+  width: 250px;
+  height: 70px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 15px;
+  
+}
+.copyLeft {
+  display: flex;
+  flex-direction: row;
+}
+.textt h1 {
+  margin-top: -100px;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 34px;
+}
+
+.box {
+  width: 180px;
+  height: 40px;
+  color: black;
+  margin-top: 10px;
+  border-radius: 5px;
+  border-color: rgb(227,51,72);  
+  
+}
+
+.textt h3 {
+  /* margin-top: -100px;*/
+  text-align: center;
+  color: antiquewhite;
+  font-size: 16px;
+}
+.img-header h1 {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.main {
+  display: inline-block;
+  background-color: rgb(227,51,72); 
+  opacity: 0.6;
+  width: 500px;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px 2px rgba(7, 7, 7, 0.2);
+  width: 700px;
+  height: 450px;
+  border-radius: 20px;
+  text-align: "right";
+  /*margin: 110px 10px 0px 600px;*/
+  margin-top: 40px;
+  margin-right: 20px;
+  padding: 20px 20px 20px 20px;
+}
+
+#main{
+    opacity: 0.5;
+}
+
+
+.textArea{
+    resize: none;
+    font-size: medium;
+    color: black;
+}
+.sectionMain {
+  color: #38cc8c;
+  font-size: 20px;
+  font-weight:lighter;
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+}
+
+
+
+
+.btn {
+  font-size: 15px;
+  color: white;
+  border-color: white;
+  border-radius: 10px;
+  background-color:#1B094B;
+
+  box-shadow: 2px 2px 6px 2px rgba(7, 7, 7, 0.2);
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 28px;
+}
